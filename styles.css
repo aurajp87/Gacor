@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/09/19/19/slot-machine-1721548_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.header {
+  padding: 40px 20px;
+  background: linear-gradient(90deg, #ff8c00, #ffcc00);
+  color: #121212;
+  box-shadow: 0 4px 15px rgba(255, 140, 0, 0.9);
+  border-radius: 0 0 20px 20px;
+}
+
+.subtext {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-shadow: 1px 1px 4px #000;
+  margin-top: 10px;
+}
+
+.promo {
+  background-color: rgba(30, 30, 30, 0.85);
+  margin: 30px auto;
+  padding: 25px 20px;
+  max-width: 650px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px #ffb300;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffcc00;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.btn-row {
+  margin: 25px auto;
+}
+
+.btn, .btn-menu-daftar {
+  display: inline-block;
+  margin: 10px 15px;
+  padding: 14px 30px;
+  background: linear-gradient(45deg, #ffcc00, #ff8c00);
+  color: #121212;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(255, 140, 0, 0.9);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover, .btn-menu-daftar:hover {
+  background: linear-gradient(45deg, #ffaa00, #ff5500);
+  color: #fff;
+  box-shadow: 0 8px 22px rgba(255, 85, 0, 0.95);
+  transform: translateY(-3px);
+}
+
+.menu {
+  background-color: rgba(25, 25, 25, 0.8);
+  margin: 20px auto;
+  padding: 22px 20px;
+  max-width: 600px;
+  border-radius: 18px;
+  box-shadow: 0 0 25px #ff8c00;
+  color: #ffc107;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.menu h2 {
+  color: #ffcc00;
+  text-shadow: 1px 1px 4px #000;
+  margin-bottom: 15px;
+}
+
+.footer {
+  padding: 18px 0;
+  background: linear-gradient(90deg, #ff8c00, #ffcc00);
+  color: #121212;
+  font-weight: 600;
+  box-shadow: 0 -4px 18px rgba(255, 140, 0, 0.9);
+}
+
+.banner {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.banner-img {
+  max-width: 95%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(255, 204, 0, 0.9);
+  transition: transform 0.3s ease;
+}
+
+.banner-img:hover {
+  transform: scale(1.05);
+}
