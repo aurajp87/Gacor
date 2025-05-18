@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kalapi110.site/sitemap.xml
+Sitemap: https://kalapi110.my.id/sitemap.xml
